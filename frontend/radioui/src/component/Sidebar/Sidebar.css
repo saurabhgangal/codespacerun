@@ -1,0 +1,50 @@
+/* Sidebar.css */
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(17 24 39);
+    padding-top: 20px;
+  }
+  
+  .sidebar h2 {
+    color: white;
+    text-align: center;
+    margin-top: -1px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 8px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sidebar li:hover {
+    background-color: #575757;
+  }
+  
+  span{
+    color: white;
+    margin-left: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  img {
+    margin-left: 100px;
+  }
+
+  .selected {
+    background-color: #3498db; /* Change to your desired background color */
+    color: #ffffff; /* Change to your desired text color */
+    /* Add any other styles for the selected item */
+  }
